@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jocimar/Documents/datastructures/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+stack.h
+/home/jocimar/Documents/datastructures/stack.h
+
+/home/jocimar/Documents/datastructures/stack.c
+stdlib.h
+-
+stack.h
+/home/jocimar/Documents/datastructures/stack.h
+
+/home/jocimar/Documents/datastructures/stack.h
+
